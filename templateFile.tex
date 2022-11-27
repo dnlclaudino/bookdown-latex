@@ -1,9 +1,17 @@
-\documentclass[12pt,a4papper]{article}
-\usepackage[utf8]{inputtec}
+%\documentclass[12pt,a4papper]{article}
+\documentclass[12pt,openright,twoside,a4paper,brazil]{abntex2}
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo de cada seção.
+\setlength{\parskip}{0.2cm} % tente também \onelineskip
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
 
 \begin{document}
 
@@ -11,6 +19,10 @@
 \textbf{Arquivo Padrão}
 \end{center}
 
-Este é um arquivo padrão Latex.
+Este é um arquivo padrão Latex. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
+
+Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
+
+Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
 
 \end{document}
